@@ -1,0 +1,27 @@
+BlobSize=-1
+ErrorResourceFile=
+RoleName=RoleName
+ServerCharSet=WIN1252
+Trim Char=False
+DriverUnit=Data.DBXFirebird
+DriverPackageLoader=TDBXDynalinkDriverLoader,DBXFirebirdDriver170.bpl
+DriverAssemblyLoader=Borland.Data.TDBXDynalinkDriverLoader,Borland.Data.DbxCommonDriver,Version=17.0.0.0,Culture=neutral,PublicKeyToken=91d62ebb5b0d1b1b
+MetaDataPackageLoader=TDBXFirebirdMetaDataCommandFactory,DbxFirebirdDriver170.bpl
+MetaDataAssemblyLoader=Borland.Data.TDBXFirebirdMetaDataCommandFactory,Borland.Data.DbxFirebirdDriver,Version=17.0.0.0,Culture=neutral,PublicKeyToken=91d62ebb5b0d1b1b
+GetDriverFunc=getSQLDriverINTERBASE
+LibraryName=dbxfb.dll
+LibraryNameOsx=libsqlfb.dylib
+VendorLib=fbclient.dll
+VendorLibWin64=fbclient.dll
+VendorLibOsx=/Library/Frameworks/Firebird.framework/Firebird
+Database=MKDATA.FDB
+User_Name=SYSDBA
+Password=masterkey
+Role=RoleName
+MaxBlobSize=-1
+LocaleCode=0000
+IsolationLevel=ReadCommitted
+SQLDialect=3
+CommitRetain=False
+WaitOnLocks=True
+TrimChar=False
